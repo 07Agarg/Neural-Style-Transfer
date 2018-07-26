@@ -2,7 +2,7 @@
 
 To obtain a representation of the STYLE of an input image : using a feature space to obtain texture information of an input image and not the global imformation. Feature space is built by obtaining filter responses of each layer of convolution neural networks. Correlations between different filter responses over the spatial content of an image. 
 
-To visualise the information at different processing stages in the CNN by reconstructing the input image from only knowing the network's responses in a particular layer. Reconstructing input image form layers (conv1_1, conv2_1, conv3_1, conv4_1, conv5_1) from lower layers is almost perfect because it contains detailed pixel information of the image while higher layers in the network captures the high level content in terms of objects and their arrangements in the input image but do not constrain the exact pixel values of the reconstructions. 
+To visualise the information at different processing stages in the CNN by reconstructing the input image from only knowing the network's responses in a particular layer. Reconstructing input image (conv1_1, conv2_1, conv3_1, conv4_1, conv5_1) from lower layers is almost perfect because it contains detailed pixel information of the image while higher layers in the network captures the high level content in terms of objects and their arrangements in the input image but do not constrain the exact pixel values of the reconstructions. 
 
 Therefore, feature responses in higher layers of networks are considered as Content Representations. 
 
